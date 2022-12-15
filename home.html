@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>RUBIX</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+      <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app"/> 
+   
+    <title>RUBIX</title>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/3.6.2/fetch.min.js" integrity="sha512-1Gn7//DzfuF67BGkg97Oc6jPN6hqxuZXnaTpC9P5uw8C6W4yUNj5hoS/APga4g1nO2X6USBb/rXtGzADdaVDeA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.3/web3.min.js" integrity="sha512-Ws+qbaGHSFw2Zc1e7XRpvW+kySrhmPLFYTyQ95mxAkss0sshj6ObdNP3HDWcwTs8zBJ60KpynKZywk0R8tG1GA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    
+    <script src="/app.js"></script>
+    
+    <link rel='stylesheet' href='/style.css' />
+    <link rel='stylesheet' href='/searchStyle.css' />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  </head>
+ 
+  <body>
+    
+    <div class="header">
+      <h1>RUBIX</h1>
+      
+    </div>
+    <div class="navbar">
+      <div>
+    <button type="submit"  onclick="signUp()">Account Info</button>
+    <p id="did"></p>
+    </div>
+
+    <br>
+    <br>
+    <label for="txnid">Transaction id:</label>
+    <input type="text" id="txnid" name="txnid">
+<button type="submit" class="signupbtn" onclick="posts()">Get Transaction Details</button>
+<p id="tid"></p>
+<br>
+<br>
+<label for="date">Transaction date:</label>
+
+<br>
+<label for="sdate">Start Date</label>
+    <input type="text" id="sdate" name="sdate">
+    <label for="edate">End Date</label>
+    <input type="text" id="edate" name="edate">
+<button type="submit" class="signupbtn" onclick="postDate()">Get Transaction Details</button>
+<br>
+<br>    
+<!-- <button type="submit"  onclick="signUp()">Transaction Info</button> -->
+      <!-- <a href="HOME.html" class="right">Home</a><br><br>
+      <a href="signup.html" class="right">Sign UP</a>
+       <a href="login.html" class="right">Login</a> -->
+    </div>
+    <!-- <div class="row">
+      <div class="centre"> -->
+        <!-- <button onclick="connectToMetaMask()">Connect To Metamask</button> -->
+        <br><br>
+    <!-- <label for="certificateIDget">Certificate ID: </label>
+    <input type="text" id="certificateIDget" placeholder="Enter Certificate ID" />
+    <button onclick="getCertificate()">Get Details</button> -->
+    
+  </body>
+</html>
