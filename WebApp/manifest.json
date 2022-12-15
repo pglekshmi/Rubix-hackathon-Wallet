@@ -1,0 +1,12 @@
+{
+    
+    "name":"Rubix Wallet",
+     "version":"1.0.0",
+     "description":"This is an extension to rubix wallet and also a peek into some node information",
+     "manifest_version": 3,
+     "author":"Lekshmi & Aldrin",
+     "action":{
+        "default_popup":"home.html",
+        "default_title":"Rubix Wallet"
+     }
+}
